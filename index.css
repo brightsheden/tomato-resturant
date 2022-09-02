@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:  url(./food\ photos/hdbg.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-blend-mode: black;
+
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.5;
+    z-index: 200;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+   
+}
+
+ul li{
+    margin-right:35px ;
+}
+
+.header-jumbo{
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+ 
+}
+
+.header-jumbo > h1{
+    font-size: 55px;
+    color: white;
+    margin: 0;
+}
+
+.header-jumbo > p {
+    color: white;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.about-section-heading{
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.about-section-heading > h2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-section-heading > p {
+    font-size: 35px;
+
+
+   
+}
+
+#bd-bttm{
+    background-color: orange;
+    color: orange;
+    width: 100px;
+    height: 50px;
+
+}
+
+.about-section{
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.about-section-content{
+    display: flex;
+    justify-content: space-around;
+}
+.about-section-content-right{
+    margin-right: 30px;
+ 
+}
+
+/*.bottom-img{
+    display: flex;
+}
+.bottom-img > img{
+    width: 100%;
+}*/
+
+
+
+.about-section-content-left p{
+    font-size: 20px;
+    color: rgb(87, 85, 85);
+    margin-bottom: 20px;
+}
+
+.special-offer{
+    background-image: url(./food\ photos/special-bg.jpg);
+    padding: 50px ;
+    
+}
+
+.special-offer-heading{
+    text-align: center;
+}
+
+.special-offer-heading > h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.special-offer-heading > p{
+    color:  white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.carousel-contents{
+  
+    color: white;
+    display: flex;
+    justify-content: space-around !important;
+
+}
+
+.carousel-content-left > img{
+    margin-right: 40px;
+}
+
+
+
+.carousel-content-right > h1{
+    font-size: 1em;
+}
+
+.carousel-content-right > p {
+    width: 65%;
+    font-size:25px;
+
+}
+
+.carousel-item{
+    
+    background-color: rgba(0,0,0,0.7);
+   
+}
+
+#brk-line{
+    background-color: orange;
+    color: orange;
+    width: 100px;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.carousel-content-right > button{
+    background-color: rgb(248, 186, 70);
+    padding: 10px;
+    width: 100px;
+    color: black;
+    text-transform: capitalize;
+  
+    margin-right: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+#buttn2{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 150px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.rervation-header {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.rervation-header > h2{
+    font-size: 45px ;
+    font-weight: bold;
+}
+
+.rervation-header > p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+form{
+
+ border: 1px solid #aaa;
+ padding: 10px;
+ margin-left: 20px;
+
+}
+.input-wrapper{
+    display: flex;
+    justify-content: space-around;
+
+}
+.form-box1 > label{
+    font-size: 20px;
+}
+
+.button-wrapper{
+    text-align: center;
+}
+
+.button-wrapper >  button{
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 186, 70);
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+}
+
+.form-box1 > input{
+    display: block;
+    background-color: whitesmoke;
+    outline: none;
+    padding:5px ;
+    width: 400px;
+    margin-bottom: 25px;
+    
+}
+.callus-wrapper{
+    
+    color: black;
+    padding: 12px;
+    text-align: center;
+    font-size: 30px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+.Features{
+    margin: 60px 60px;
+}
+
+.features-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-header > h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.features-header > p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.features-box-wrapper{
+    display: flex;
+}
+
+.features-box{
+   
+    width: 50%;
+    margin-right: 20px;
+}
+
+.features-box-img{
+    width: 100%;
+}
+
+.features-box-img > image{
+    width: 100%;
+}
+
+.features-box-content > h2{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.features-box-content > p{
+    font-size: 20px;
+ 
+   
+
+}
+
+.menu-header{
+    text-align: center;
+}
+
+.menu-header > h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.menu-header > p {
+    font-size: 20px;
+}
+
+.menu-header > a {
+ margin-right: 30px;
+ font-size: 22px;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+.a-aactive{
+    border-bottom: 4px  solid rgb(248, 186, 70);
+    color: black;
+    text-decoration: none;
+   
+}
+
+.menu-list{
+    margin: 60px 60px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-list-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-list-header > p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.menu-list-bottom > span{
+    color: rgb(85, 84, 84);
+    font-size: 20px;
+}
+
+#mrnu-exp-btn{
+    padding: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+.Trusted-by{
+    margin: 60px 60px;
+}
+
+.trusted-by-header{
+    text-align: center;
+}
+
+.trusted-by-header > h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.trusted-by-header > p{
+    font-size: 20px;
+}
+
+.trusted-by-images{
+    text-align: center;
+}
+
+.trusted-by-images > img{
+    margin-right: 20px;
+}
+
+.Instagram{
+    padding: 60px 60px;
+   
+}
+
+.intagram-header{
+    text-align: center;
+}
+
+.intagram-header > h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.intagram-header > p {
+    font-size: 20px;
+}
+
+.subcription{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+}
+
+#sb-p{
+    font-size: 56px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+#sb-des{
+    font-size: 25px;
+    color: #aaa;
+    margin-top: 12px;
+}
+
+.sb-inp-w{
+
+    width: 30%;
+    margin-top: 12px;
+}
+
+.sb-inp{
+    width:80%;
+    padding: 10px;
+    outline: none;
+    border: 3px solid rgb(248, 186, 70);
+}
+
+.sb-inp-btn{
+    outline: none;
+    border: none;
+    background-color: rgb(248, 186, 70);
+    padding: 12px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen  and (max-width:768px){
+    .header-right{
+        display: none;
+    }
+
+    .header-jumbo > h1 {
+        font-size: 40px;
+    }
+
+    .header-jumbo > p{
+        font-size: 20px;
+    }
+
+    .about-section-heading > h2{
+        font-size: 35px;
+
+    }
+
+    .about-section-heading > p{
+        font-size: 20px;
+       
+    }
+
+    .about-section-content{
+        display: block;
+    }
+
+    .about-section-content-right > img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .bottom-img{
+        display: none;
+    }
+
+    .special-offer{
+        padding: 0px;
+        width: 100%;
+   
+    }
+
+    .special-offer-heading > h2{
+        font-size: 30px;
+    }
+    
+    .special-offer-heading > p{
+        font-size: 20px;
+    }
+    
+    
+    .special-offer-carousel{
+        margin-top: 30px;
+    }
+    .carousel-contents{
+        display: block;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-color: none;
+        width: 100%;
+        
+    }
+    .carousel-content-left {
+       width: 100%;
+       margin-bottom: 20px;
+       display:none ;
+    }
+    
+    .carousel-content-right > p {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .carousel-content-right > button {
+        width: 40%
+        
+    }
+    
+    
+    .reservation-wrapper{
+        margin-top: 30px;
+    }
+    
+    .input-wrapper{
+        display: block;
+        width: 100%;
+    }
+    
+    form{
+        padding: 10px;
+    }
+
+    .form-box1{
+        padding: 20px;
+        margin-bottom: -30px;
+    }
+
+    .form-box1 > input{
+        width: 100%;
+    }
+
+    .button-wrapper{
+        margin: 30px 30px;
+    }
+
+    .callus-wrapper > p{
+        font-size: 20px;
+
+    }
+
+    .Features{
+        margin: 20px 20px;
+
+    }
+
+    .features-header > h2{
+        font-size: 30px;
+    }
+
+    .features-box{
+        width: 100%;
+    }
+
+    .features-box-wrapper{
+        display: block;
+    }
+
+    .featurs-box-img > img{
+        width: 100%;
+    }
+
+    .features-box-content > h2{
+        font-size: 25px;
+        width: 100%;
+  
+
+    }
+
+    .menu-header{
+        padding: 20px 20px;
+    }
+    .menu-header > h2{
+        font-size: 30px;
+    }
+
+    .menu-header > p{
+        font-size: 20px;
+    }
+
+    .menu-header > a {
+        font-size: 17px;
+        color: rgb(122, 116, 116);
+        margin-bottom: 15px;
+    }
+
+    .menu-list{
+        margin: 20px 20px;
+     
+        display: block;
+        justify-content: space-evenly;
+    }
+    
+    .menu-list-header{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .menu-list-header > p{
+        font-weight: bold;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .menu-list-bottom > span{
+        color: rgb(85, 84, 84);
+        font-size: 12px;
+    }
+
+    .Trusted-by{
+        margin: 20px 20px;
+    }
+
+    .trusted-by-header > h2{
+        font-size: 30px;
+    }
+
+    .trusted-by-header > p {
+        font-size: 15px;
+    }
+
+    .intagram-header > h2{
+        font-size: 30px;
+    }
+
+    .intagram-header> p{
+        font-size: 16px;
+    }
+
+    .subcription{
+        display: block;
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .sb-inp-w{
+      
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .sb-inp{
+        width: 70%;
+    }
+    
+}
+
