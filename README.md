@@ -1,3 +1,3 @@
 # tomato-resturant
 fictional resturant website
-live linnk https://tomato-resturants.netlify.app/
+live link https://tomato-resturants.netlify.app/
